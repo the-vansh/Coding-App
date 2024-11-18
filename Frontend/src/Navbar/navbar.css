@@ -1,0 +1,62 @@
+nav {
+  background-color: #006400 ;
+  padding: 10px; 
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+h2 {
+  color: white; 
+  margin-right: auto;
+}
+
+.h3 {
+  font-size: bold;
+  color: white;
+  margin: 0; 
+  margin-right: 20px; 
+}
+
+ul {
+  list-style-type: none; 
+  padding: 0;
+  margin: 0; 
+  display: flex; 
+}
+
+li {
+  margin-left: 30px;
+}
+
+
+li a {
+  font-weight: bold;
+  color: white; 
+  text-decoration: none;
+}
+
+
+li a:hover {
+  text-decoration: underline; 
+}
+
+#Deletebtn {
+  
+  padding: 5px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #2ea126;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+ 
+}
+
+#Deletebtn:hover {
+  background-color: #02460c;
+}
+

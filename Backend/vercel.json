@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "name": "cat-backend",
+    "builds": [
+        {
+            "src": "apis.js",
+            "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/apis.js"
+        }
+    ]
+}

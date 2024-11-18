@@ -1,0 +1,10 @@
+.sideedit{
+   display: flex;
+}
+.editor{
+   width: 60vw;
+   height: 85vh;
+   display: inline-block;
+   margin: 10px 10px;
+   border-radius: 5px;
+}

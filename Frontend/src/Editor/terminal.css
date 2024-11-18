@@ -1,0 +1,8 @@
+.ter{
+    margin: 10px 10px;
+    display: inline-block;
+    width: 1000px;
+    height: 85vh;
+    overflow: auto; 
+    word-break: break-word;
+}

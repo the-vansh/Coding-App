@@ -1,0 +1,47 @@
+.editor-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .InfoForm {
+    background-color: rgb(176, 228, 136);
+    position: absolute;
+    border-radius: 5px;
+    top: 200px;
+    left:350px;
+    width: 220px;
+    height: 220px;
+    z-index: 10;
+   
+  }
+  .InfoForm button{
+    padding: 7px 7px;
+    margin-top: 30px;
+    margin-left:30px;
+    margin-right: 23px;
+    border: none;
+    color:white;
+    background-color: green;
+    border-radius: 5px;
+   
+  }
+  .InfoForm input{
+     padding: 7px;
+     outline: none;
+     margin-left: 25px;
+     margin-top: 30px;
+     border-color: rgb(42, 211, 33);
+     width:180px;
+     border-radius: 5px;
+  }
+  .InfoForm label{
+    font-size: 20px;
+    font-family:sans-serif
+  }
+
+  .InfoForm h1{
+    margin-top: 5px;
+    margin-left: 40px;
+    color: green;
+  }
+  

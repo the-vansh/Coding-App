@@ -1,0 +1,114 @@
+.toppanal{
+    height: 40px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: rgb(21, 20, 20);
+    color: rgb(133, 82, 205);
+    display: flex;
+    justify-content: space-between;
+}
+.newfile{
+    align-content: center;
+    margin-left: 3px;
+}
+.mainbtn{
+    align-content: center;
+}
+.mainbtn button{
+    margin-right: 3px;
+}
+.selectlang{
+    align-content: center;
+    margin-right: 5px;
+}
+.selectlang label{
+    color: white;
+}
+.new-file-btn {
+    background-color: #007bff; 
+    color: #ffffff; 
+    border: none;
+    padding: 6px 20px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.new-file-btn:hover {
+    background-color: #0056b3; 
+}
+
+.run {
+    background-color: #21d530; 
+    color: #ffffff; 
+    border: none;
+    padding: 6px 20px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.run:hover {
+    background-color: #5ae368; 
+}
+.stop{
+    background-color: #dc2510; 
+    color: #ffffff; 
+    border: none;
+    padding: 6px 20px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.stop:hover {
+    background-color: #e84f2d; 
+}
+
+.save{
+    background-color: #b5b821; 
+    color: #ffffff; 
+    border: none;
+    padding: 6px 20px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.save:hover {
+    background-color: #e1e650; 
+}
+
+  
+.selectlang label {
+font-weight: bold;
+}
+
+.selectlang select {
+padding: 5px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+.selectlang select:focus {
+outline: none;
+border-color: #007bff; 
+}
+
+.selectlang select option:first-child {
+color: #999; 
+}
+
+
+/* side panel design */
+.sidepanel{
+    background-color:  #008000;
+    height: 83vh;
+    display: inline-block;
+    z-index: 2;
+}
+
